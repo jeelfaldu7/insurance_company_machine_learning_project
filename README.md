@@ -67,7 +67,7 @@ Sure Tomorrow Insurance wants to leverage machine learning to:
      jupyter notebook insurance_us.ipynb
 
 ## 📈 Results Summary
-     | Task   | Model Used            | Key Metric          | Result                 |
+| Task   | Model Used            | Key Metric               | Result                 |
 | ------ | --------------------- | -----------------        | ---------------------- |
 | Task 1 | Nearest Neighbors     | Scaled and Unscaled data | Working as intended    |
 | Task 2 | KNN-based classifier  | F1-score                 | Better than dummy      |
