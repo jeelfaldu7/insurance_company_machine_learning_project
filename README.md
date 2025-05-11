@@ -70,7 +70,7 @@ Sure Tomorrow Insurance wants to leverage machine learning to:
 | Task   | Model Used            | Key Metric               |   Result                         |
 | ------ | --------------------- | -----------------        |   ----------------------         |
 | Task 1 | Nearest Neighbors     | Scaled and Unscaled data | Scaled data affects the kNN        
-                                                                         algorithm.            |
+                                                              algorithm.                       |
 | Task 2 | KNN-based classifier  | F1-score                 | The model generalizes much better                                                                compared to the unscaled ones.   |
 | Task 3 | Linear Regression     | RMSE                     | Acceptable baseline              |
 | Task 4 | Obfuscated Regression | RMSE                     | Comparable to original           |
