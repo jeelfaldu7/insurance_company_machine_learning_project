@@ -56,3 +56,20 @@ Sure Tomorrow Insurance wants to leverage machine learning to:
       - `family_members` - Number of Family Members
    - Target:
       - `insurance_benefits` - Number of benefits received over the last 5 years
+
+## 💻 How to Run the Project
+  1. Clone the repository.
+  2. Install dependencies:
+     ```bash
+     pip install pandas scikit-learn matplotlib seaborn
+  3. Run the notebook:
+     ```bash
+     jupyter notebook insurance_us.ipynb
+
+## 📈 Results Summary
+     | Task   | Model Used            | Key Metric          | Result                 |
+| ------ | --------------------- | -----------------        | ---------------------- |
+| Task 1 | Nearest Neighbors     | Scaled and Unscaled data | Working as intended    |
+| Task 2 | KNN-based classifier  | F1-score                 | Better than dummy      |
+| Task 3 | Linear Regression     | RMSE                     | Acceptable baseline    |
+| Task 4 | Obfuscated Regression | RMSE                     | Comparable to original |
