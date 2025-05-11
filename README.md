@@ -67,12 +67,12 @@ Sure Tomorrow Insurance wants to leverage machine learning to:
      jupyter notebook insurance_us.ipynb
 
 ## 📈 Results Summary
-| Task   | Model Used            | Key Metric               |   Result                         |
-| ------ | --------------------- | -----------------        |   ----------------------         |
-| Task 1 | Nearest Neighbors     | Scaled and Unscaled data | Scaled data affects the kNN algorithm.                       |
-| Task 2 | KNN-based classifier  | F1-score                 | The model generalizes much better                                                                compared to the unscaled ones.   |
-| Task 3 | Linear Regression     | RMSE                     | Acceptable baseline              |
-| Task 4 | Obfuscated Regression | RMSE                     | Comparable to original           |
+| Task | Model Used            | Key Metric               |   Result                         |
+| ---- | --------------------- | -----------------        |   ----------------------         |
+|  1   | Nearest Neighbors     | Scaled and Unscaled data | Scaled data affects the kNN algorithm.                       |
+|  2   | KNN-based classifier  | F1-score                 | The model generalizes much better                                                                compared to the unscaled ones.   |
+| 3 | Linear Regression     | RMSE                     | Acceptable baseline              |
+|  4 | Obfuscated Regression | RMSE                     | Comparable to original           |
 
 ## 📚 Lessons Learned
   - Effective application of ML in real-world insurance problems
